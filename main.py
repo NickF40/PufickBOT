@@ -5,7 +5,7 @@ from classes import Engine
 # I follow PEP8
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
   engine = Engine(configs.token)
   engine.config(configs.engine_configs)
   engine.start()
